@@ -21,3 +21,4 @@ while True:
 # Računanje i ispis rezultata
 rezultat = djeljenik / djelilac
 print(f"Rezultat dijeljenja broja {djeljenik} sa {djelilac} je: {round(rezultat,2)}")
+

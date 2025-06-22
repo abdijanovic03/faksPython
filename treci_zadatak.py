@@ -3,7 +3,7 @@
 # Unos stringa od korisnika
 tekst = input("Unesite tekst: ")
 
-# Rječnik za čuvanje broja pojavljivanja karaktera
+# Objekt za čuvanje broja pojavljivanja karaktera
 brojac = {}
 
 # Prolazak kroz svaki karakter u stringu

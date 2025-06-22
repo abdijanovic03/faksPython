@@ -13,7 +13,10 @@ suma = 0.0
 
 for i in range(broj_ocjena):
     try:
-        ocjena = float(input(f"Unesite ocjenu #{i+1}: "))
+        ocjena = int(input(f"Unesite ocjenu #{i+1}: "))
+        if ocjena>10 or ocjena<6:
+            print("Greška: Niste unijeli validnu ocjenu.")
+            exit()
     except ValueError:
         print("Greška: Niste unijeli validnu ocjenu.")
         exit()
