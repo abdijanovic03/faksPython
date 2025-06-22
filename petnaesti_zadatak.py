@@ -4,7 +4,7 @@ import re
 def validiraj_ime(ime):
     return bool(re.fullmatch(r"[A-Za-zĆČŽŠĐćčžšđ ]{3,}", ime)) and len(ime.split()) >= 2
 
-# Validacija e-mail adrese
+# Validacija email adrese
 def validiraj_email(email):
     return re.fullmatch(r".+@.+\.(com|ba|org|edu)", email) is not None
 
@@ -24,13 +24,13 @@ def validiraj_lozinku(lozinka):
 
 # Unos i provjera
 ime = input("Unesite ime i prezime: ")
-email = input("Unesite e-mail adresu: ")
+email = input("Unesite email adresu: ")
 lozinka = input("Unesite lozinku: ")
 
 if not validiraj_ime(ime):
     print("Greška: Ime mora sadržavati samo slova i imati bar dvije riječi.")
 elif not validiraj_email(email):
-    print("Greška: E-mail adresa nije validna.")
+    print("Greška: Email adresa nije validna.")
 elif not validiraj_lozinku(lozinka):
     print("Greška: Lozinka mora imati najmanje 8 znakova, veliko slovo, malo slovo, broj i specijalni znak.")
 else:
