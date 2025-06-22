@@ -5,7 +5,7 @@ Kolekcija od 15 Python zadataka u redoslijedu od najlakšeg do najtežeg, sa kom
 Ovo je projekti zadatak za predmet "Skripni jezici i programiranje"
 
 ## Struktura projekta
-Repozitorij sadrži 15 Python fajlova, svaki sa rješenjem zasebnog zadatka, i gitignore za ignorisanje txt fajlova.
+Repozitorij sadrži 15 Python fajlova, svaki sa rješenjem zasebnog zadatka, gitignore za ignorisanje txt fajlova i seminarski rad sa objašnjenjima zadataka.
 
 
 ## Zadatci
